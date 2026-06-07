@@ -2,7 +2,7 @@ import { formatDistanceToNow } from "date-fns";
 import { ja } from 'date-fns/locale'
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Link from "next/link";
-import { PostCardProps } from "@/types/Post";
+import { PostCardProps } from "@/types/post";
 import Image from "next/image";
 
 export default function PostCard({ post }: PostCardProps) {
